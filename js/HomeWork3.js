@@ -1,17 +1,11 @@
 //первое задание
 
-let myString = 'I love this world';
+let myString = 'I love th';
 console.log(myString.length);
 if (myString.length<10){
-    console.log(myString[0]);
-    console.log(myString[1]);
-    console.log(myString[2]);
-    console.log(myString[3]);
-    console.log(myString[4]);
-    console.log(myString[5]);
-    console.log(myString[6]);
-    console.log(myString[7]);
-    console.log(myString[8]);
+    for(i=0;i<9;i++){
+        console.log(myString[i]);
+    }
 }else {
     console.log(myString.substr(0,7));
     console.log(myString.substr(9));
