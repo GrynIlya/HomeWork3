@@ -1,9 +1,9 @@
 //первое задание
 
-let myString = 'I love th';
+let myString = '1234567891011';
 console.log(myString.length);
 if (myString.length<10){
-    for(i=0;i<9;i++){
+    for(i=0;i<myString.length;i++){
         console.log(myString[i]);
     }
 }else {
